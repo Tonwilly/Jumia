@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #ebecee;
+}
+header{
+    background-color: #fff;
+    color: #333;
+    padding: 0;
+    
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    background: #ebecee;
+    padding: 0 50px;
+    gap: 10px;
+}
+.top-bar a{
+    text-decoration: none;
+    color: rgb(255, 148, 60);
+    font-weight: bold;
+}
+.top-bar-left{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+.top-bar-center{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 500px;
+}
+.top-bar-center .logo-image{
+    width: 80px;;
+}
+.star-logo{
+   width: 20px;
+}
+.jumia-pay{
+    width: 100px;
+    height: 20px;
+}
+.logo-image{
+    width: 100px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px 90px;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 15px;
+}
+.logo{
+    display: flex;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    position: relative;
+    top: 10px;
+}
+.logo img{
+    width: 120px;
+}
+.bx-menu{
+    font-size: 35px;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+}
+.bx-menu:hover{
+    color: #ff943c;
+    transform: scale(1.1);
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    width: 50%;
+}
+.search-bar input{
+    width: 70%;
+    height: 30px;
+    border: 1px solid #3333338a;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.search-bar button{
+    width: 22%;
+    height: 42px;
+    padding: 5px 0;
+    background-color: #fd811b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.search-bar button:hover{
+    background-color: #fd8726;
+    transform: scale(1.05);
+}
+.user-actions{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.user-actions .bx{
+    font-size: 30px;
+}
+.user-actions a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-actions a:hover{
+    color: #fd7e17;
+}
